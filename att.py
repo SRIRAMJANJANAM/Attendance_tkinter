@@ -45,7 +45,7 @@ class AttendanceBotGUI:
         self.show_btn = tk.Button(btn_frame, text="Show Attendance", bg="#FF9800", **btn_opts, command=self.show_attendance)
         self.show_btn.pack(side="left", expand=True, fill="x", padx=5)
 
-        self.export_btn = tk.Button(root, text="Export to CSV", bg="#9C27B0", fg="white", font=("Helvetica", 11), bd=0, activebackground="#7B1FA2", command=self.export_csv)
+        self.export_btn = tk.Button(root, text="Export to CSV", bg="#5C27B0", fg="white", font=("Helvetica", 11), bd=0, activebackground="#7B1FA2", command=self.export_csv)
         self.export_btn.pack(padx=20, pady=10, fill="x")
 
         # Status bar
@@ -62,7 +62,7 @@ class AttendanceBotGUI:
                 self.listbox.insert(tk.END, name)
                 self.set_status(f"Student '{name}' added.", "green")
             else:
-                self.set_status(f"Student '{name}' already exists.", "orange")
+                self.set_status(f"Student '{name}' already exists.", "red")
 
     def mark_attendance(self):
         selected = self.listbox.curselection()
@@ -76,7 +76,7 @@ class AttendanceBotGUI:
             self.attendance[self.date].append(name)
             self.set_status(f"Attendance marked for {name} on {self.date}", "green")
         else:
-            self.set_status(f"Attendance already marked for {name} today.", "orange")
+            self.set_status(f"Attendance already marked for {name} today.", "red")
 
     def show_attendance(self):
         if self.date in self.attendance and self.attendance[self.date]:
