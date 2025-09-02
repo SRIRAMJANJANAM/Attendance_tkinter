@@ -1,0 +1,28 @@
+2025/09/02-10:00:09.786 5ac Reusing MANIFEST D:\ORAI\test\chrome-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/09/02-10:00:09.805 5ac Recovering log #509
+2025/09/02-10:00:09.808 5ac Level-0 table #512: started
+2025/09/02-10:00:09.821 5ac Level-0 table #512: 38034 bytes OK
+2025/09/02-10:00:09.823 5ac Recovering log #511
+2025/09/02-10:00:09.829 5ac Reusing old log D:\ORAI\test\chrome-profile\Default\Local Storage\leveldb/000511.log 
+2025/09/02-10:00:09.831 5ac Delete type=0 #509
+2025/09/02-10:01:09.899 1e54 Level-0 table #514: started
+2025/09/02-10:01:09.912 1e54 Level-0 table #514: 37084 bytes OK
+2025/09/02-10:01:09.917 1e54 Delete type=0 #511
+2025/09/02-10:02:10.952 1e54 Level-0 table #516: started
+2025/09/02-10:02:10.958 1e54 Level-0 table #516: 37628 bytes OK
+2025/09/02-10:02:10.961 1e54 Delete type=0 #513
+2025/09/02-10:02:10.961 1e54 Compacting 4@0 + 1@1 files
+2025/09/02-10:02:10.969 1e54 Generated table #517@0: 260 keys, 41770 bytes
+2025/09/02-10:02:10.970 1e54 Compacted 4@0 + 1@1 files => 41770 bytes
+2025/09/02-10:02:10.971 1e54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/02-10:02:10.972 1e54 Delete type=2 #508
+2025/09/02-10:02:10.972 1e54 Delete type=2 #510
+2025/09/02-10:02:10.972 1e54 Delete type=2 #512
+2025/09/02-10:02:10.973 1e54 Delete type=2 #514
+2025/09/02-10:02:10.973 1e54 Delete type=2 #516
+2025/09/02-10:03:10.951 1e54 Level-0 table #519: started
+2025/09/02-10:03:10.965 1e54 Level-0 table #519: 37274 bytes OK
+2025/09/02-10:03:10.969 1e54 Delete type=0 #515
+2025/09/02-10:05:10.950 1e54 Level-0 table #521: started
+2025/09/02-10:05:10.964 1e54 Level-0 table #521: 38031 bytes OK
+2025/09/02-10:05:10.969 1e54 Delete type=0 #518
